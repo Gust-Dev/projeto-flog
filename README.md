@@ -10,7 +10,7 @@ O **Flog** é um site estático que permite aos usuários:
 ✅ Personalizar seu perfil com informações pessoais.  
 ✅ Editar ou excluir postagens anteriores.  
 
-Este projeto explora conceitos fundamentais de **HTML, CSS e JavaScript**, promovendo a construção de interfaces web intuitivas e responsivas.  
+Este projeto explora conceitos fundamentais de **HTML e CSS**, promovendo a construção de interfaces web intuitivas e responsivas.  
 
 ## 📂 Estrutura do Projeto  
 
@@ -20,7 +20,6 @@ Este projeto explora conceitos fundamentais de **HTML, CSS e JavaScript**, promo
 │   ├── /css → Estilos do site  
 │   │   ├── style.css  
 │   ├── /img → Armazena imagens do site  
-│   ├── /js → Arquivos JavaScript (se necessário)  
 │   ├── index.html → Página principal  
 │   ├── perfil.html → Página de perfil do usuário  
 │   ├── cadastro.html → Cadastro/Edição de postagens  
@@ -32,7 +31,6 @@ Este projeto explora conceitos fundamentais de **HTML, CSS e JavaScript**, promo
 
 🚀 **HTML5** → Estruturação das páginas.  
 🎨 **CSS3** → Estilização e responsividade.  
-⚙️ **JavaScript (opcional)** → Para interatividade.  
 
 ## 🎯 Objetivo Acadêmico  
 

@@ -1,7 +1,9 @@
 📸 Flog - Seu Diário Fotográfico Digital
+
 Bem-vindo ao Flog, um projeto acadêmico para a matéria de desenvolvimento Web. O objetivo é permitir que os usuários compartilhem e organizem suas memórias visuais por meio de um fotolog simples e eficiente.
 
 📌 Sobre o Projeto
+
 O Flog é um site estático onde os usuários podem:
 
 Criar e visualizar entradas de fotos e textos.
@@ -22,9 +24,15 @@ Este projeto faz parte de um trabalho acadêmico, explorando conceitos de HTML, 
 │   ├── cadastro.html → Cadastro/Edição de postagens  
 │   ├── entrada.html → Exibição de postagens individuais  
 │── README.md → Documentação do projeto  
+
+
 🛠 Tecnologias Utilizadas
+
+
 HTML5 → Estruturação das páginas
 CSS3 → Estilização e responsividade
 JavaScript (opcional) → Para interatividade
+
 🎯 Objetivo Acadêmico
+
 Este projeto tem como propósito o estudo prático de desenvolvimento web, incentivando a aplicação dos conhecimentos adquiridos em aula. A implementação segue boas práticas de organização de arquivos e estruturação de páginas HTML.

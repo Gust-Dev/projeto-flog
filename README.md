@@ -1,18 +1,20 @@
-📸 Flog - Seu Diário Fotográfico Digital
 
-Bem-vindo ao Flog, um projeto acadêmico para a matéria de desenvolvimento Web. O objetivo é permitir que os usuários compartilhem e organizem suas memórias visuais por meio de um fotolog simples e eficiente.
+# 📸 Flog - Seu Diário Fotográfico Digital  
 
-📌 Sobre o Projeto
+Bem-vindo ao **Flog**, um projeto acadêmico desenvolvido para a matéria de **Desenvolvimento Web**. O objetivo deste sistema é proporcionar uma experiência simples e eficiente para que os usuários possam **compartilhar e organizar suas memórias visuais** por meio de um **fotolog**.  
 
-O Flog é um site estático onde os usuários podem:
+## 📌 Sobre o Projeto  
 
-Criar e visualizar entradas de fotos e textos.
-Personalizar seu perfil com informações pessoais.
-Editar ou excluir postagens anteriores.
-Este projeto faz parte de um trabalho acadêmico, explorando conceitos de HTML, CSS e JavaScript para construção de interfaces web intuitivas e responsivas.
+O **Flog** é um site estático que permite aos usuários:  
+✅ Criar e visualizar entradas com fotos e textos.  
+✅ Personalizar seu perfil com informações pessoais.  
+✅ Editar ou excluir postagens anteriores.  
 
-📂 Estrutura do Projeto
+Este projeto explora conceitos fundamentais de **HTML, CSS e JavaScript**, promovendo a construção de interfaces web intuitivas e responsivas.  
 
+## 📂 Estrutura do Projeto  
+
+```
 /projeto-flog  
 │── /public  
 │   ├── /css → Estilos do site  
@@ -24,15 +26,14 @@ Este projeto faz parte de um trabalho acadêmico, explorando conceitos de HTML, 
 │   ├── cadastro.html → Cadastro/Edição de postagens  
 │   ├── entrada.html → Exibição de postagens individuais  
 │── README.md → Documentação do projeto  
+```
 
+## 🛠 Tecnologias Utilizadas  
 
-🛠 Tecnologias Utilizadas
+🚀 **HTML5** → Estruturação das páginas.  
+🎨 **CSS3** → Estilização e responsividade.  
+⚙️ **JavaScript (opcional)** → Para interatividade.  
 
+## 🎯 Objetivo Acadêmico  
 
-HTML5 → Estruturação das páginas
-CSS3 → Estilização e responsividade
-JavaScript (opcional) → Para interatividade
-
-🎯 Objetivo Acadêmico
-
-Este projeto tem como propósito o estudo prático de desenvolvimento web, incentivando a aplicação dos conhecimentos adquiridos em aula. A implementação segue boas práticas de organização de arquivos e estruturação de páginas HTML.
+Este projeto tem como propósito o **estudo prático de desenvolvimento web**, incentivando a aplicação dos conhecimentos adquiridos em aula. A estrutura segue boas práticas de organização de arquivos e desenvolvimento HTML.  

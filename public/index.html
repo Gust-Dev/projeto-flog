@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flog da Equipe</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <div class="container">
+            <section class="section-header">
+                <h2>Últimas Entradas</h2>
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="filter-author">Filtrar por:</label>
+                        <select id="filter-author">
+                            <option value="">Todos os integrantes</option>
+                            <option value="andre">André</option>
+                            <option value="igor">Igor</option>
+                            <option value="ruan">Ruan</option>
+                            <option value="gustavo">Gustavo</option>
+                            <option value="thiago">Thiago</option>
+                            <option value="raniel">Raniel</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Lista de Entradas (exemplos genéricos) -->
+            <section class="entries-list">
+                <article class="entry-card">
+                    <div class="entry-content">
+                        <h3 class="entry-title">Título da Entrada</h3>
+                        <div class="entry-meta">
+                            <span class="author"><i class="fas fa-user"></i> André</span> <!-- "fas fa" faz parte da biblioteca font awesome, que chamei no head para utilizar icones. "fas" indica que pertence ao conjunto solid, e "fa-user", por exemplo, é o nome do icone especifico, nesse caso um icone que represente o usuario-->
+                            <span class="date"><i class="fas fa-calendar"></i> 10/03/2025</span>
+                        </div>
+                        <p class="entry-excerpt">Descrição breve sobre o conteúdo desta entrada.</p>
+                    </div>
+                </article>
+                <article class="entry-card">
+                    <div class="entry-content">
+                        <h3 class="entry-title">Título da Entrada</h3>
+                        <div class="entry-meta">
+                            <span class="author"><i class="fas fa-user"></i> Gustavo</span> 
+                            <span class="date"><i class="fas fa-calendar"></i> 10/03/2025</span>
+                        </div>
+                        <p class="entry-excerpt">Descrição breve sobre o conteúdo desta entrada.</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+    </footer>
+</body>
+</html>

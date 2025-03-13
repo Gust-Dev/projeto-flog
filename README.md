@@ -34,4 +34,7 @@ Este projeto explora conceitos fundamentais de **HTML e CSS**, promovendo a cons
 
 ## 🎯 Objetivo Acadêmico  
 
-Este projeto tem como propósito o **estudo prático de desenvolvimento web**, incentivando a aplicação dos conhecimentos adquiridos em aula. A estrutura segue boas práticas de organização de arquivos e desenvolvimento HTML.  
+Este projeto tem como propósito o **estudo prático de desenvolvimento web**, incentivando a aplicação dos conhecimentos adquiridos em aula. A estrutura segue boas práticas de organização de arquivos e desenvolvimento HTML.
+
+
+https://gust-dev.github.io/projeto-flog/public/entrada.html 

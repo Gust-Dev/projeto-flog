@@ -1,16 +1,35 @@
 body{
-    background-image: url("../img/img-fundo.jpeg");
+   
+    background-image: url("../img/fundos/Desktop3.jpeg");
     background-size: cover;       
     background-repeat: no-repeat;  
     background-position: center;   
     margin: 0;
-    height: 100vh;
-
-
+    margin-top: 20px;
+    min-height: 100vh;
     font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-weight: 600;
+    font-style: normal;
+    animation: backgroundAnimation 15s infinite;
+    
 }
+
+@keyframes backgroundAnimation {
+
+    0% {
+      background-image: url('../img/fundos/Desktop1.png');
+    }
+    33% {
+      background-image: url('../img/fundos/Desktop2.png');
+    }
+    66% {
+      background-image: url('../img/fundos/Desktop3.png');
+    }
+    100% {
+      background-image: url('../img/fundos/Desktop1.png');
+    }
+  }
+
 
 header{
 
@@ -230,3 +249,28 @@ p{
     font-size: small;
    
 }
+
+
+.rodape  {
+    text-decoration: none; /* Remove sublinhado */  
+    display: flex;
+    color: white;
+    gap: 20px;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+
+
+}
+
+
+.rodape a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Herda a cor do texto, ou use uma cor específica */
+}
+
+.flogWe {
+    display: flex;
+    gap: 20px;
+}
+

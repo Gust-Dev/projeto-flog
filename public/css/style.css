@@ -5,14 +5,20 @@ body{
     background-position: center;   
     margin: 0;
     height: 100vh;
-    
-    
+
+
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
+
 header{
+
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding-left: 80%;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-top: 25px;
     
 }
 
@@ -28,7 +34,7 @@ input[type="submit"] {
     
 }
 #criarConta{
-    background-color: #4c9baf;  /* Cor de fundo verde */
+    background-color: #449CE3;  /* Cor de fundo verde */
     color: white;                /* Cor do texto */
     padding: 10px 20px;          /* Espaçamento interno */
     border: none;                /* Sem borda */
@@ -38,6 +44,30 @@ input[type="submit"] {
     margin: 3px 3px;
     
 }
+
+#entrar {
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    background-color: #00CD3A;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px;
+    height: 30px;
+    align-items: center;
+    color: black;
+    font-size: small;
+   
+
+
+}
+
+ul{
+    
+    padding-left: 0px;
+
+}
+
 input[type="email"],
 input[type="password"]{
     padding: 10px 20px;          /* Espaçamento interno */

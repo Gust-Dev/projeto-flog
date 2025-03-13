@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Entrada </title>
+    <title>Entrada</title>
     <link href="./css/style.css" rel="stylesheet" >
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,27 +14,54 @@
 
 </head>
 <body>
-    <header>
-        <div>
-           <input type="text">
-        </div>
-        <a id="entrar" href="#"><ul>Entrar</ul></a>
+    <header >
+        <div class="pesquisabarra">
+             <img src="./img/lupa.svg" alt="lupa">
 
+             <input type="text" class="pesquisa" placeholder="Pesquise no Flog">
+        </div>
+
+       
+             <a id="entrar" href="#"><ul>Entrar</ul></a>
+        
     </header>
    
     
         
         <div class="conteiner">
-            <div id="title"><img src="/Frame.svg" alt="flog"></div>
+            <div id="floglogo">
+                <img src="img/Frame.svg" alt="flog">
+            </div>
           
-                <form>
+                <form class="formularioinit">
 
+                    <input type="email" placeholder="Email">
                     <input type="password" placeholder="Senha">
                     <input id="criarConta" type="submit" value="Criar conta">
-                       <p id="p">ou</p>
-                    <input type="submit" value="Continuar com o Google">
-                    <input type="submit" value="Continuar com o Apple">
-                    <input type="email" placeholder="E-mail">
+                         <div class="linhas">
+                           <hr>
+                              <span>ou</span> 
+                           <hr>
+                       </div>
+                       
+                       <button class="botaocad">
+                        <img src="./img/logo googleg 48dp.svg"  alt="Google"> Continuar com o Google
+                       </button>
+                        
+                        <button class="botaocad" style="padding-bottom: 5px;" >
+                            <img src="./img/apple 1.svg" style="padding-bottom: 5px;" alt="Google"> Continuar com o Apple
+                        </button>
+                        
+                    
+                   
+
+                    <div class="bussola">
+                        
+                        <img src="./img/bussola.svg" alt="">
+                        <p>  Veja o que está em alta</p>
+                    
+                    
+                    </div>
 
                  </form>
             

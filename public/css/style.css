@@ -23,8 +23,8 @@ header{
 }
 
 input[type="submit"] {
-    background-color: #e3e8e9;  /* Cor de fundo verde */
-    color: white;                /* Cor do texto */
+    background-color: #D9D9D9;  /* Cor de fundo verde */
+    color: rgb(4, 4, 4);                /* Cor do texto */
     padding: 10px 20px;          /* Espaçamento interno */
     border: none;                /* Sem borda */
     border-radius: 5px;          /* Bordas arredondadas */
@@ -35,15 +35,35 @@ input[type="submit"] {
 }
 #criarConta{
     background-color: #449CE3;  /* Cor de fundo verde */
-    color: white;                /* Cor do texto */
+    color: rgb(0, 0, 0);                /* Cor do texto */
+    border: none;                /* Sem borda */
+    border-radius: 3px;          /* Bordas arredondadas */
+    font-size: 13px;             /* Tamanho da fonte */
+    cursor: pointer;            /* Muda o cursor para pointer */
+    margin: 3px 3px;
+    font-weight: 550;
+   
+   
+}
+
+.botaocad{
+    background-color: #D9D9D9;  /* Cor de fundo verde */
+    color: rgb(4, 4, 4);                /* Cor do texto */
     padding: 10px 20px;          /* Espaçamento interno */
     border: none;                /* Sem borda */
     border-radius: 5px;          /* Bordas arredondadas */
-    font-size: 16px;             /* Tamanho da fonte */
+    font-size: 13px;     
+    font-weight: 550;        /* Tamanho da fonte */
     cursor: pointer;            /* Muda o cursor para pointer */
     margin: 3px 3px;
-    
 }
+
+
+#floglogo img {
+    height: 70px;
+   padding-bottom: 30px;  
+}
+
 
 #entrar {
     display: flex;
@@ -68,14 +88,51 @@ ul{
 
 }
 
+input[type="submit"],
 input[type="email"],
 input[type="password"]{
+
+    
+    outline: none;
     padding: 10px 20px;          /* Espaçamento interno */
-    border: none;                /* Sem borda */
+    border: none;   
+    font-weight: 550;             /* Sem borda */
     border-radius: 5px;          /* Bordas arredondadas */
-    font-size: 16px;   
-    margin: 3px 3px;          /* Tamanho da fonte */
+    font-size: 13px;  
+    margin: 3px 3px;   
+       /* Tamanho da fonte */
+    
 }
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: gray; /* Altere para a cor desejada */
+    opacity: 0.5; /* Ajuste a transparência (0.1 a 1) */
+}
+
+
+.linhas {
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.linhas hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #ffffff; /* Cor da linha */
+    margin: 0 7px;
+}
+
+.linhas span {
+    padding-top: 5px;
+    font-size: 13px;
+    color: white;
+    padding-bottom: 5px;
+}
+
 h1{
     color:white;
     font-size: 80px;
@@ -91,11 +148,85 @@ h1{
 form{
     display: flex;
     flex-direction: column;
-}
-#p{
-    color: white;
-    width: 30px;
-    margin: auto; 
-    padding: 5px;
+    width: 100%;
     
+
+
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    
+}
+
+
+
+.botaocad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.botaocad img{
+
+    height: 20px;
+    
+
+}
+
+.bussola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bussola img{
+    width: 20px;
+}
+
+
+.pesquisabarra{
+    height: 100%;
+    display: flex;
+    background-color: #3D3D3D;
+    border-radius: 20px;
+    opacity: 0.80;
+}
+
+.pesquisabarra img {
+    height: 20px;
+    align-self: center;
+    padding-left: 12px;
+    
+}
+
+.pesquisa::placeholder {
+    font-weight: bold; 
+}
+
+
+.pesquisa {
+    
+    outline: none;
+    text-align: center;
+    border-style: none;
+    text-align: start;
+    
+    background-color: #3D3D3D ;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    height: 30px;
+    width: 200px;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: small;
+   
 }
